@@ -31,4 +31,11 @@ public class ThymeleafController {
         model.addAttribute("key_model2","Ben modelden geldim-2"); // html'nin içerisine gönderilir ve "key_model2" ile erişim sağlanır
         return "thymeleaf_file/thymeleaf3"; // html döner
     }
+
+    // http://localhost:8080/thymeleaf4
+    @GetMapping("/thymeleaf4")// url
+    public String getThymeleaf4Model(Model model){
+       model.addAttribute("key_model1","Ben modelden geldim-4"); // html'nin içerisine gönderilir ve "key_model2" ile erişim sağlanır
+        return "thymeleaf4"; // html döner
+    }
 }
