@@ -5,4 +5,5 @@ public class IntellijShortCut {
 //    Alt+Ins ==> constructor, toString, getter, setter
 //    Ctrl+/ ==> single_omment
 //    Ctrl+shift+/ ==> multible_comment
+//    Ctrl+Alt+l
 }
