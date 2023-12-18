@@ -78,8 +78,10 @@ public class ThymeleafController {
         return "thymeleaf6"; // html döner
     }
 
-    // Model Object
+    ////////////////////////////////////////////////////////////////////////////////////
+    // @PathVariable
     // http://localhost:8080/thymeleaf7/4
+    // http://localhost:8080/thymeleaf7
     @GetMapping({"/thymeleaf7", "/thymeleaf7/{id}"})// url
     public String getThymeleaf7ModeObject(Model model, @PathVariable(name = "id", required = false) Long id) {
         if (id != null) {
