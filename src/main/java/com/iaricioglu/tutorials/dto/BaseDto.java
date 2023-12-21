@@ -1,4 +1,4 @@
-package com.iaricioglu.dto;
+package com.iaricioglu.tutorials.dto;
 
 import java.util.Date;
 

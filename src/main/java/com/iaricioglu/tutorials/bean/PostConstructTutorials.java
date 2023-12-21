@@ -1,4 +1,4 @@
-package com.iaricioglu.bean;
+package com.iaricioglu.tutorials.bean;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;

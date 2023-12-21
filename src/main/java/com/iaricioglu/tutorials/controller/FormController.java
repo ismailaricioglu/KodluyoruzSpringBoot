@@ -1,6 +1,6 @@
-package com.iaricioglu.controller;
+package com.iaricioglu.tutorials.controller;
 
-import com.iaricioglu.dto.TeacherDto;
+import com.iaricioglu.tutorials.dto.TeacherDto;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;

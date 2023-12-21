@@ -1,6 +1,6 @@
-package com.iaricioglu.bean;
+package com.iaricioglu.tutorials.bean;
 
-import com.iaricioglu.dto.BeanDto;
+import com.iaricioglu.tutorials.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
