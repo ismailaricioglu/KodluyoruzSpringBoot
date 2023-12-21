@@ -1,4 +1,4 @@
-package com.iaricioglu.entity;
+package com.iaricioglu.data.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

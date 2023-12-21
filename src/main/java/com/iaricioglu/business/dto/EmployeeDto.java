@@ -1,4 +1,4 @@
-package com.iaricioglu.dto;
+package com.iaricioglu.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
