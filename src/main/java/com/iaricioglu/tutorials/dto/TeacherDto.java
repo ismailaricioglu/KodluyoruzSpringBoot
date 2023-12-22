@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 
-import jakarta.validation.constraints.*;
+import javax.validation.constraints.*;
 
 @Data
 @NoArgsConstructor
