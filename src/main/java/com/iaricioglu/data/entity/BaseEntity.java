@@ -1,6 +1,8 @@
 package com.iaricioglu.data.entity;
 
 import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
@@ -12,14 +14,18 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.util.Date;
 
-@MappedSuperclass
+// Lombok
 @Getter
 @Setter
+// Hibernate JPA
+@MappedSuperclass
+// Auditing
 @EntityListeners(AuditingEntityListener.class)
+@JsonIgnoreProperties(value = {"created_date,update_date"}, allowGetters = true)
 public class BaseEntity {
 
     @Id
-    @Column(name = "id",nullable = false)
+    @Column(name = "id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
