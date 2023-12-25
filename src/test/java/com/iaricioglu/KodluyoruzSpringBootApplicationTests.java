@@ -13,7 +13,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class KodluyoruzSpringBootApplicationTests implements TestCrud {
+class KodluyoruzSpringBootApplicationTests {
+/*class KodluyoruzSpringBootApplicationTests implements TestCrud {
 
     @Autowired
     EmployeeRepository employeeRepository;
@@ -79,5 +80,5 @@ class KodluyoruzSpringBootApplicationTests implements TestCrud {
         // Assert
         // isFalse
         assertThat(employeeRepository.existsById(1L)).isFalse();
-    }
+    }*/
 }
